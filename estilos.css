@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/gallardoim.png);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/gallardoim.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body{
 }
 
 .fondobanda2{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/Bandera_de_River.png);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,13 +228,13 @@ textarea{
     @media (max-width: 480px){ 
 
     .body{
-        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/gallardoim.png);
+        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/gallardoim.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 }
     .fondobanda2{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/Bandera_de_River.png);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
