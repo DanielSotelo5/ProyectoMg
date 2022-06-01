@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="fondobanda2">
     <header class="encabezado">
-        <nav>
-            <div>
-            <a href="../index.html"></div>
-                <img class="logo2" src="../img/firma blanco.png" alt="Firma Gallardo" width="50">
-            <div class="clase2">
-                    <ul class="menú2">
-                    <li><a href="Biografia.html">Biografia</a></li>
-                    <li><a href="Galeria.html">Galeria</a></li>
-                    <li><a href="Estadisticas.html">Estadisticas</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo2" src="../img/descarga.png" alt="Firma Gallardo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="../Pages/Biografia.html">Biografia</a>
+                  <a class="nav-link" href="../Pages/Galeria.html">Galeria</a>
+                  <a class="nav-link" href="../Pages/Estadisticas.html">Estadisticas</a>
+                  <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
         <div class="grid-container">
         <img class="item" src="../img/gallardo10.webp" alt="gallardo1" width="300">
@@ -37,11 +43,21 @@
         <iframe width="400" height="300" src="https://www.youtube.com/embed/Npn50WSWzZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="400" height="300" src="https://www.youtube.com/embed/WagEeiTA2f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    <footer class="final1">
-            <h4>REDES SOCIALES</h4>
-            <a href="http://www.facebook.com"><img src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png" alt="Facebook" width="50"></a>
-            <a href="http://www.instagram.com"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="Instagram" width="50"></a>
-            <a href="http://www.twitter.com"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter" width="50"></a>
-    </footer>
+        <footer class="footer static-bottom footer_style final1">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-12 col-md-8 col-md-8 text-left">
+                        <p>Página sin fines de lucro ni comerciales</p>
+                        <p>Copyright Daniel Sotelo©</p>
+                        </div>
+                    <div class="col-12 col-md-4 col-lg-4 text-center">
+                        <a href="https://www.facebook.com"><img src="../img/facebook.png" alt="FACEBOOK"></a>
+                        <a href="https://www.youtube.com"><img src="../img/youtube.png" alt="YOUTUBE"></a>
+                        <a href="https://www.instagram.com"><img src="../img/instagram.png" alt="INSTAGRAM"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
