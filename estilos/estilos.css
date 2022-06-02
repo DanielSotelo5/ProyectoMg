@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/gallardoim.png);
+    background-image: url(../img/gallardoim.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body{
 }
 
 .fondobanda2{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
+    background-image: url(../img/Bandera_de_River.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,6 @@ body{
     display: inline-block;
     align-items: center;
     margin: 100px;
-    color: white;
 }
 .fuente h2{
     font-style: italic; 
@@ -187,7 +186,6 @@ body{
 /* estadisticas */
 .tabla{
     display: flex;
-    color: white;
 }
 .tablaestilo{
     border-collapse: separate;
@@ -200,7 +198,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
     line-height: 45px;
-    color: white;
 }   
 .fuentec h3{
     font-style: italic; 
@@ -231,13 +228,13 @@ textarea{
     @media (max-width: 480px){ 
 
     .body{
-        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/gallardoim.png);
+        background-image: url(../img/gallardoim.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 }
     .fondobanda2{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
+    background-image: url(../img/Bandera_de_River.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,7 +252,8 @@ textarea{
     .King{
         display: grid;
         align-items: stretch;
-        justify-items: end;}
+        justify-items: end;
         grid-template-columns: repeat(10,1fr);
         grid-template-rows: repeat(1,1fr);
+    }
     }
