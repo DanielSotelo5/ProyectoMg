@@ -22,11 +22,11 @@ body{
     height: 80vh;
     width: 100%;
     grid-template-rows: repeat(1,1fr);
-  /*   transform: skewY(-15deg); */
- /*    float: left;
-    font-family: monospace; */
-   /*  animation-delay: 1s;
-    animation: maquina 10s infinite; */
+    transform: skewY(-15deg);
+    float: left;
+    font-family: monospace;
+    animation-delay: 1s;
+    animation: maquina 10s infinite;
     }
     @keyframes maquina {
         from{
@@ -84,18 +84,29 @@ body{
     background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     /* background-color: #000; */
 }
-
-/* .encabezado{
+.aparte{
     display: grid;
-    background-image: linear-gradient(white,red);
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;  
-} */
+  /*   grid-template-rows: repeat(1,1fr); */
+  margin-top: 1500px;
+}
 
+.textoimg{
+display: flex;
+color: #fff;
+margin-top: 100px;
+text-align: center;
+}
+.aparte img{
+    width: 100%;
+}
+
+.aparte2{
+    display: grid;
+    margin-top: 500px;
+}
 .logo2 {
     width: 4em;
 }
@@ -113,7 +124,9 @@ body{
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: white;
+    background: linear-gradient(white,white,white,red,white,white,white);
+    -webkit-background-clip: text;
+    color: transparent; 
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
  }
@@ -192,6 +205,9 @@ body{
     text-align: center;
     line-height: 45px;
     margin: auto;
+}
+.aparte{
+    display: grid;
 }
 
 /* estadisticas */
@@ -274,6 +290,11 @@ textarea{
     
     .King{
         display: grid;
-        align-items: stretch;
-        justify-items: end;}
+        font-size: xx-small;
+        grid-template-rows: repeat(1,1fr);
+        transform: skewY(-15deg);
+        float: left;
+        font-family: monospace;
+        animation-delay: 1s;
+        animation: maquina 10s infinite;
     }
