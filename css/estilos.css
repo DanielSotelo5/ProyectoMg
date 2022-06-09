@@ -13,10 +13,23 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-.logo {
-  display: flex;
-  margin: 0.5px;
+
+/* inicio */
+.logo2 {
+    width: 4em;
 }
+
+.nav-link {
+   display: block;
+   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+   font-size: var(--bs-nav-link-font-size);
+   font-weight: var(--bs-nav-link-font-weight);
+   background: linear-gradient(white,white,white,red,white,white,white);
+   -webkit-background-clip: text;
+   color: transparent; 
+   text-decoration: none;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+
  .King{
     display: grid;
     height: 80vh;
@@ -36,150 +49,72 @@ body{
             width: 80%;
         }
     }
-.info_content{
-    grid-column: 7 / 10;
-    grid-row: 3 / 7;
+    .info_content{
+        grid-column: 7 / 10;
+        grid-row: 3 / 7;
+        color: #fff;
+    }
+    .info_content h1{
+        font-size: 4em;
+        color: red;
+        margin: 10px;
+    }
+    .info_content p{
+        font-weight: 300;
+        margin: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .aparte{
+        display: grid;
+        margin-top: 1500px;
+    }
+    .aparte img{
+        width: 100%;
+    }
+
+    .textoimg{
+    display: flex;
     color: #fff;
-}
-
-.King h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 10px;
-}
-.King h1{
-    font-size: 4em;
-    color: red;
-    margin: 10px;
-}
-.King p{
-    font-weight: 300;
-    margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.final1{
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #212529; 
-    color: white;  
-    position: relative;
-    margin-top: 500px; 
-}
-.final2{
-    display: flex;
-    align-items: center;
-}
-.final1 h4{
-    margin-top: 0%;
-}
-.final1 h5{
-    margin-bottom: 0%;
-    display: block;
-    margin-left: 800px;
-    margin-right: auto;
-}
-
-.fondobanda2{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
-    /* background-color: #000; */
-}
-.aparte{
-    display: grid;
-  /*   grid-template-rows: repeat(1,1fr); */
-  margin-top: 1500px;
-}
-
-.textoimg{
-display: flex;
-color: #fff;
-margin-top: 100px;
-text-align: center;
-}
-.aparte img{
-    width: 100%;
-}
-
-.aparte2{
-    display: grid;
-    margin-top: 500px;
-}
-.logo2 {
-    width: 4em;
-}
-
-/* .menú2 li{
-    font-weight: 600;
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    gap: 20px;
-    padding: auto;
- } */
- .nav-link {
-    display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    background: linear-gradient(white,white,white,red,white,white,white);
-    -webkit-background-clip: text;
-    color: transparent; 
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
- }
- .justify{
-     justify-content: flex-end;
- }
-.clase2{
-    display: grid;
-    justify-content: center;
-}
-.titulotabla {
-    font-size: large;
-    justify-content: center;
-    color: white;
-}
-.noticias{
-    width: 200px;
-    height: 400px;
-    display: inline-block;
-    position: absolute;
-    left: 500px;
-    top: 400px;
-}
-.final1{
-    display: block;
-    flex-direction: column;
-    margin-top: 200px;
-}
-.final1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    margin-top: 400px;
-} 
-.item{
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.item:hover {
-    filter: opacity(0.9);
-    transform: scale(1.08);
-}
-.noticias2da{
-    width: 100px;
-    height: 100px;
-    margin-top: 320px;
-    margin-left: 750px;
-    display: inline-block;
-    position: absolute;
-}
+    margin-top: 100px;
+    text-align: center;
+    }
+    
+    .aparte2{
+        display: grid;
+        margin-top: 500px;
+    }
+    .justify{
+        justify-content: flex-end;
+    }
+    .final1{
+        display: flex;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #212529; 
+        color: white;  
+        position: relative;
+        margin-top: 500px; 
+    }
+    /* Galeria */
+    
+    .fondobanda2{
+        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+    .item{
+        border-radius: 4px;
+        transition: transform 0.3s ease-in-out;
+      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .item:hover {
+        filter: opacity(0.9);
+        transform: scale(1.08);
+    }
+    /* Biografia */
 .fuente{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -206,9 +141,6 @@ text-align: center;
     line-height: 45px;
     margin: auto;
 }
-.aparte{
-    display: grid;
-}
 
 /* estadisticas */
 .tabla{
@@ -217,11 +149,16 @@ text-align: center;
     align-items: center;
     padding: 25px;
 }
+.titulotabla {
+    font-size: large;
+    justify-content: center;
+    color: white;
+}
 .tablaestilo{
     border-collapse: separate;
-   border-spacing: 5px;
-   background: #000 url("gradient.gif") bottom left repeat-x;
-   color: #fff;
+    border-spacing: 5px;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+    color: #fff;
 }
 
 .fuentec{
@@ -282,11 +219,6 @@ textarea{
         display: flex;
         justify-content: center;
     }
- /*    .menú2{
-        display: flex;
-        justify-content: center;
-        font-size: small;
-    } */
     
     .King{
         display: grid;
@@ -297,4 +229,5 @@ textarea{
         font-family: monospace;
         animation-delay: 1s;
         animation: maquina 10s infinite;
+    }
     }
