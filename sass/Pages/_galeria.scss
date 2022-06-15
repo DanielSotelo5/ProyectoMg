@@ -1,0 +1,24 @@
+.fondobanda2{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.item{
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    & :hover {
+        filter: opacity(0.9);
+        transform: scale(1.08);
+    }
+}
+.grid-container {
+  display: inline-block;
+  grid-column: auto;
+  justify-content: center;
+ margin: 10px;
+}

@@ -1,0 +1,28 @@
+.fuentec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+    line-height: 45px;
+    color: white;
+    & h3{
+        font-style: italic; 
+        line-height: 45px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+    & h4{
+        font-style: italic; 
+        line-height: 45px;
+        color: red;
+        display: flex;
+        justify-content: center;}   
+}
+input{
+    background-color: red;
+    border-style: 2px black;
+}
+textarea{
+    background-color: red;
+    border-style: 2px black;
+}

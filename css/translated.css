@@ -1,3 +1,33 @@
+@keyframes maquina {
+  from {
+    width: 100%; }
+  to {
+    width: 80%; } }
+
+@media (max-width: 480px) {
+  .body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/gallardoim.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .fondobanda2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/Bandera_de_River.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .logo2 {
+    display: flex;
+    justify-content: center; }
+  .King {
+    display: grid;
+    font-size: xx-small;
+    grid-template-rows: repeat(1, 1fr);
+    transform: skewY(-15deg);
+    float: left;
+    font-family: monospace;
+    animation-delay: 1s;
+    animation: maquina 10s infinite; } }
+
 * {
   box-sizing: border-box;
   margin: 0; }
@@ -12,19 +42,6 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
 
-.logo2 {
-  width: 4em; }
-
-.nav-link {
-  display: block;
-  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: var(--bs-nav-link-font-size);
-  font-weight: var(--bs-nav-link-font-weight);
-  background: linear-gradient(white, white, white, red, white, white, white);
-  color: transparent;
-  text-decoration: none;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
-
 .King {
   display: grid;
   height: 80vh;
@@ -35,12 +52,6 @@ body {
   font-family: monospace;
   animation-delay: 1s;
   animation: maquina 10s infinite; }
-
-@keyframes maquina {
-  from {
-    width: 100%; }
-  to {
-    width: 80%; } }
 
 .info_content {
   grid-column: 7 / 10;
@@ -73,6 +84,95 @@ body {
   display: grid;
   margin-top: 500px; }
 
+.fondobanda2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/Bandera_de_River.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat; }
+
+.item {
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .item :hover {
+    filter: opacity(0.9);
+    transform: scale(1.08); }
+
+.grid-container {
+  display: inline-block;
+  grid-column: auto;
+  justify-content: center;
+  margin: 10px; }
+
+.tabla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px; }
+
+.titulotabla {
+  font-size: large;
+  justify-content: center;
+  color: white; }
+
+.tablaestilo {
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #000 url("gradient.gif") bottom left repeat-x;
+  color: #fff; }
+
+.fuente {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  margin: 100px;
+  color: white; }
+  .fuente h2 {
+    font-style: italic;
+    text-align: center;
+    line-height: 45px;
+    margin: auto; }
+  .fuente h3 {
+    font-style: italic;
+    text-align: center;
+    line-height: 45px;
+    margin: auto; }
+  .fuente h4 {
+    font-style: italic;
+    text-align: center;
+    line-height: 45px;
+    margin: auto; }
+
+.fuentec {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  line-height: 45px;
+  color: white; }
+  .fuentec h3 {
+    font-style: italic;
+    line-height: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline; }
+  .fuentec h4 {
+    font-style: italic;
+    line-height: 45px;
+    color: red;
+    display: flex;
+    justify-content: center; }
+
+input {
+  background-color: red;
+  border-style: 2px black; }
+
+textarea {
+  background-color: red;
+  border-style: 2px black; }
+
 .final1 {
   display: flex;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -80,3 +180,17 @@ body {
   color: white;
   position: relative;
   margin-top: 500px; }
+
+.logo2 {
+  width: 4em; }
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  background: linear-gradient(white, white, white, red, white, white, white);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }

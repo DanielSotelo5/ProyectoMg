@@ -1,0 +1,19 @@
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.titulotabla {
+    font-size: large;
+    justify-content: center;
+    color: white;
+}
+.tablaestilo{
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+    color: #fff;
+}
+
+

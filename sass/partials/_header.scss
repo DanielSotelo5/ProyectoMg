@@ -1,0 +1,14 @@
+.logo2 {
+    width: 4em;
+}
+
+.nav-link {
+   display: block;
+   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+   font-size: var(--bs-nav-link-font-size);
+   font-weight: var(--bs-nav-link-font-weight);
+   background: linear-gradient(white,white,white,red,white,white,white);
+   -webkit-background-clip: text;
+   color: transparent; 
+   text-decoration: none;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }

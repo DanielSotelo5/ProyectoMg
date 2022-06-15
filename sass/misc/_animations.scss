@@ -1,0 +1,38 @@
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 80%;
+    }
+}
+@media (max-width: 480px){ 
+
+    .body{
+        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url(../img/gallardoim.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+    .fondobanda2{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Bandera_de_River.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .logo2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .King{
+        display: grid;
+        font-size: xx-small;
+        grid-template-rows: repeat(1,1fr);
+        transform: skewY(-15deg);
+        float: left;
+        font-family: monospace;
+        animation-delay: 1s;
+        animation: maquina 10s infinite;
+    }
+    }
