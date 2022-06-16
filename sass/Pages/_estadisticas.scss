@@ -7,13 +7,14 @@
 .titulotabla {
     font-size: large;
     justify-content: center;
-    color: white;
+    color: map-get($colors,color-secundario);
+    @extend .fuente ;
 }
 .tablaestilo{
     border-collapse: separate;
     border-spacing: 5px;
     background: #000 url("gradient.gif") bottom left repeat-x;
-    color: #fff;
+    color: map-get($colors,color-primario);
 }
 
 

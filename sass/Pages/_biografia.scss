@@ -1,26 +1,29 @@
 .fuente{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:map-get($font,font-principal);
     text-align: center;
     display: inline-block;
     align-items: center;
     margin: 100px;
-    color: white;
+    color: map-get($colors,color-primario);
     & h2{
         font-style: italic; 
         text-align: center;
         line-height: 45px;
         margin: auto;
+        color: map-get($colors,color-secundario);
     }
     & h3{
         font-style: italic; 
         text-align: center;
         line-height: 45px;
         margin: auto;
+        color: map-get($colors,color-secundario);
     }
     & h4{
         font-style: italic; 
         text-align: center;
         line-height: 45px;
         margin: auto;
+        color: map-get($colors,color-secundario);
     }
 }

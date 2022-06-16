@@ -1,12 +1,12 @@
 .fuentec{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: map-get($font,font-principal);
     font-style: italic; 
     line-height: 45px;
-    color: white;
+    color: map-get($colors,color-primario);
     & h3{
         font-style: italic; 
         line-height: 45px;
-        color: white;
+        color: map-get($colors,color-primario);
         display: flex;
         justify-content: center;
         text-decoration: underline;
@@ -14,15 +14,15 @@
     & h4{
         font-style: italic; 
         line-height: 45px;
-        color: red;
+        color: map-get($colors, color-secundario);
         display: flex;
         justify-content: center;}   
 }
 input{
-    background-color: red;
+    background-color: map-get($colors, color-secundario);
     border-style: 2px black;
 }
 textarea{
-    background-color: red;
+    background-color: map-get($colors, color-secundario);
     border-style: 2px black;
 }

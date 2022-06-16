@@ -16,6 +16,9 @@
         transform: scale(1.08);
     }
 }
+img.item{
+    @include sixes(400px,300px);
+}
 .grid-container {
   display: inline-block;
   grid-column: auto;

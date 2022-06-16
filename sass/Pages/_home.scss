@@ -14,11 +14,11 @@
     .info_content{
         grid-column: 7 / 10;
         grid-row: 3 / 7;
-        color: #fff;
+        color: map-get($colors,color-secundario);
     
     & h1{
         font-size: 4em;
-        color: red;
+        color: map-get($colors, color_primario);
         margin: 10px;
     }
     & p{
@@ -41,9 +41,10 @@
 
     & .textoimg{
             display: flex;
-            color: #fff;
+            color: map-get($colors, color-primario);
             margin-top: 100px;
             text-align: center;
+            @extend .fuente ;
         } 
     }
 

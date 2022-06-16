@@ -42,6 +42,8 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
 
+/* colores */
+/* font-family */
 .King {
   display: grid;
   height: 80vh;
@@ -56,10 +58,9 @@ body {
 .info_content {
   grid-column: 7 / 10;
   grid-row: 3 / 7;
-  color: #fff; }
+  color: #b30606; }
   .info_content h1 {
     font-size: 4em;
-    color: red;
     margin: 10px; }
   .info_content p {
     font-weight: 300;
@@ -76,7 +77,7 @@ body {
     width: 100%; }
   .aparte .textoimg {
     display: flex;
-    color: #fff;
+    color: #f3f3f3;
     margin-top: 100px;
     text-align: center; }
 
@@ -100,6 +101,10 @@ body {
     filter: opacity(0.9);
     transform: scale(1.08); }
 
+img.item {
+  width: 400px;
+  height: 300px; }
+
 .grid-container {
   display: inline-block;
   grid-column: auto;
@@ -115,62 +120,65 @@ body {
 .titulotabla {
   font-size: large;
   justify-content: center;
-  color: white; }
+  color: #b30606; }
 
 .tablaestilo {
   border-collapse: separate;
   border-spacing: 5px;
   background: #000 url("gradient.gif") bottom left repeat-x;
-  color: #fff; }
+  color: #f3f3f3; }
 
-.fuente {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.fuente, .aparte .textoimg, .titulotabla {
+  font-family: "Lucida Sans";
   text-align: center;
   display: inline-block;
   align-items: center;
   margin: 100px;
-  color: white; }
-  .fuente h2 {
+  color: #f3f3f3; }
+  .fuente h2, .aparte .textoimg h2, .titulotabla h2 {
     font-style: italic;
     text-align: center;
     line-height: 45px;
-    margin: auto; }
-  .fuente h3 {
+    margin: auto;
+    color: #b30606; }
+  .fuente h3, .aparte .textoimg h3, .titulotabla h3 {
     font-style: italic;
     text-align: center;
     line-height: 45px;
-    margin: auto; }
-  .fuente h4 {
+    margin: auto;
+    color: #b30606; }
+  .fuente h4, .aparte .textoimg h4, .titulotabla h4 {
     font-style: italic;
     text-align: center;
     line-height: 45px;
-    margin: auto; }
+    margin: auto;
+    color: #b30606; }
 
 .fuentec {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lucida Sans";
   font-style: italic;
   line-height: 45px;
-  color: white; }
+  color: #f3f3f3; }
   .fuentec h3 {
     font-style: italic;
     line-height: 45px;
-    color: white;
+    color: #f3f3f3;
     display: flex;
     justify-content: center;
     text-decoration: underline; }
   .fuentec h4 {
     font-style: italic;
     line-height: 45px;
-    color: red;
+    color: #b30606;
     display: flex;
     justify-content: center; }
 
 input {
-  background-color: red;
+  background-color: #b30606;
   border-style: 2px black; }
 
 textarea {
-  background-color: red;
+  background-color: #b30606;
   border-style: 2px black; }
 
 .final1 {
