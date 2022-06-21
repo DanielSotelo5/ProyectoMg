@@ -87,6 +87,7 @@ body{
     .aparte2{
         display: grid;
         margin-top: 500px;
+        padding: 50px;
     }
     .justify{
         justify-content: flex-end;
