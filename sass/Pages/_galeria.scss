@@ -7,17 +7,17 @@
 .item{
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: auto;
     & :hover {
         filter: opacity(0.9);
         transform: scale(1.08);
     }
 }
 img.item{
-    @include sixes(400px,300px);
+    @include sixes(450px,400px);
 }
 .grid-container {
   display: inline-block;
