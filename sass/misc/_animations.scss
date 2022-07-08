@@ -6,6 +6,40 @@
         width: 80%;
     }
 }
+@media (max-width: 320px) {
+.aparte2{
+    display: grid;
+    margin-top: 10px;
+    padding: 50px;
+}
+.sonrisa10{
+    display: inline-block;
+}
+.item {
+    width: 300px;
+    height: 250px;
+}
+.tabla {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    flex-direction: column;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+ }
+ table.tabla2 {
+    margin: 0%;
+    padding: 0px;
+  }
+  .aparte img {
+    width: 315px;
+    height: 250px;
+    margin-top: -70px;
+   }
+}
 @media (max-width: 480px){ 
 
     .body{
@@ -29,7 +63,7 @@
         display: grid;
         font-size: xx-small;
         grid-template-rows: repeat(1,1fr);
-        transform: skewY(-8deg);
+        transform: skewY(-2deg);
         float: left;
         font-family: monospace;
         animation-delay: 1s;

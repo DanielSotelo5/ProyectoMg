@@ -4,7 +4,7 @@
     height: 80vh;
     width: 100%;
     grid-template-rows: repeat(1,1fr);
-    transform: skewY(-5deg);
+    transform: skewY(-2deg);
     float: left;
     font-family: monospace;
     animation-delay: 1s;
@@ -46,10 +46,4 @@
             text-align: center;
             @extend .fuente ;
         } 
-    }
-
-    .aparte2{
-        display: grid;
-        margin-top: 500px;
-        padding: 50px;
     }

@@ -40,7 +40,7 @@ body{
     height: 80vh;
     width: 100%;
     grid-template-rows: repeat(1,1fr);
-    transform: skewY(-8deg);
+    transform: skewY(-2deg);
     float: left;
     font-family: monospace;
     animation-delay: 1s;
@@ -86,8 +86,8 @@ body{
     
     .aparte2{
         display: grid;
-        margin-top: 500px;
-        padding: 50px;
+        margin-top: 10px;
+        padding: 5px;
     }
     .justify{
         justify-content: flex-end;
@@ -172,6 +172,11 @@ body{
     background: #000 url("gradient.gif") bottom left repeat-x;
     color: var(--color-primario);
 }
+.tabla2{
+    padding: 0%;
+    margin: 0%;
+    width: 0%;
+}
 
 /* contacto */
 .fuentec{
@@ -237,4 +242,35 @@ textarea{
         animation-delay: 1s;
         animation: maquina 10s infinite;
     }
-    }
+}
+@media (max-width: 320px) {
+    .aparte2{
+        display: grid;
+        margin-top: 0px;
+        padding: 0px;
+        width: 400px;
+        height: 450px;
+    }      
+.sonrisa10{
+    display: inline-block;
+}
+img.item {
+    width: 300px;
+    height: 250px;
+}
+.tabla {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  flex-direction: column;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+ }
+table.tabla2 {
+    margin: 0%;
+ }
+ 
+ }

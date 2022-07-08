@@ -4,7 +4,38 @@
   to {
     width: 80%; } }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
+.aparte2{
+  display: grid;
+  margin-top: 0px;
+  padding: 0px;
+  width: 310px;
+  height: 170px;
+}
+.aparte img {
+ width: 315px;
+ height: 250px;
+ margin-top: -70px;
+}
+.sonrisa10{
+  display: inline-block;
+}
+.item{
+  width: 300px;
+  height: 250px;
+}
+.container {
+  margin: 0%;
+  padding: 0%;
+  width: 200px;
+}
+table.tabla2 {
+  margin: 0%;
+  padding: 0px;
+}
+}
+
+    @media (max-width: 480px) {
   .body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/gallardoim.png);
     background-size: cover;
@@ -22,7 +53,7 @@
     display: grid;
     font-size: xx-small;
     grid-template-rows: repeat(1, 1fr);
-    transform: skewY(-8deg);
+    transform: skewY(-2deg);
     float: left;
     font-family: monospace;
     animation-delay: 1s;
@@ -42,14 +73,13 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
 
-/* colores */
-/* font-family */
+
 .King {
   display: grid;
   height: 80vh;
   width: 100%;
   grid-template-rows: repeat(1, 1fr);
-  transform: skewY(-5deg);
+  transform: skewY(-2deg);
   float: left;
   font-family: monospace;
   animation-delay: 1s;
@@ -72,7 +102,7 @@ body {
 
 .aparte {
   display: grid;
-  margin-top: 1500px; }
+  margin-top: 1000px; }
   .aparte img {
     width: 100%; }
   .aparte .textoimg {
@@ -80,12 +110,6 @@ body {
     color: #f3f3f3;
     margin-top: 100px;
     text-align: center; }
-
-.aparte2 {
-  display: grid;
-  margin-top: 500px; 
-  padding: 50px;
-}
 
 .fondobanda2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/Bandera_de_River.png);
@@ -103,10 +127,6 @@ body {
   .item :hover {
     filter: opacity(0.9);
     transform: scale(1.08); }
-
-img.item {
-  width: 450px;
-  height: 400px; }
 
 .grid-container {
   display: inline-block;

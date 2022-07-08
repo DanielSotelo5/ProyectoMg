@@ -16,8 +16,8 @@
         transform: scale(1.08);
     }
 }
-img.item{
-    @include sixes(450px,400px);
+.item{
+    @include sixes(300px,250px);
 }
 .grid-container {
   display: inline-block;
